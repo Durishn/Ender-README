@@ -6,9 +6,10 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description, project_url
+*** github_username, repo_name, project_title, project_description, project_url
 -->
-
+<!-- To change the stability level, replace 'stable' with 'stable', 'unstable', 'experimental', or 'deprecated'-->
+![Project State][stable-shield]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,6 +34,9 @@
     <a href="https://github.com/github_username/repo_name/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href='https://www.buymeacoffee.com/nicdurish' target='_blank' style='margin-top:50px;'><img height='30' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee' /></a>
+    <br />
+    <br/ >
     <a href="https://project_url">View Demo</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
@@ -58,6 +62,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#building">Building</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -115,6 +120,13 @@ Before using this software, ensure you have the necessary prerequisites by runni
    npm install
    ```
 
+### Building
+
+* Use the following command to build the project
+ ```sh
+ build dat shit
+ ```
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -168,16 +180,23 @@ Distributed under the MIT License. See [`LICENSE`][license-url] for more informa
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/docs/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-Github-black.svg?style=for-the-badge&logo=github&colorB=555
+
+
+[stable-shield]: https://img.shields.io/badge/stability-stable-green.svg
+[unstable-shield]: https://img.shields.io/badge/stability-unstable-yellow.svg
+[deprecated-shield]: https://img.shields.io/badge/stability-deprecated-orange.svg
+[experimental-shield]: https://img.shields.io/badge/stability-experimental-red.svg
+
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-Github-black.svg?logo=github&colorB=555
 [linkedin-url]: https://github.com/github_username
 [product-screenshot]: docs/images/screenshot.png
