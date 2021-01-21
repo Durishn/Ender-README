@@ -147,9 +147,9 @@ Contributions are what make the open source community such an amazing place to b
 ## Authors
 Nic Durish - [@Durishn](https://twitter.com/Durishn) - [mail@nicdurish.ca](mailto:mail@nicdurish.ca)
 
-**Contributors**: Greg Hahn, Kim Lawrence, [Stuart Robertson](https://github.com/StuartRoberts0n)
+**Contributors**: Fake Person, Another Fake
 
-See the [contributors](https://github.com/CityOfGuelph-Webservices/TwentyTwelve-CityOfGuelph/contributors) page for an updated list of contributors to this project
+See the [contributors](https://github.com/github_username/repo_name/contributors) page for an updated list of contributors to this project
 
 
 
